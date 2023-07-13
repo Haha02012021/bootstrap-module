@@ -1,0 +1,123 @@
+.table--custom tr {
+  padding: 1.25rem 0;
+  border-top: 1px solid var(--border-gray-color);
+  gap: 0.5rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.table--custom tr:last-child {
+  border-bottom: 1px solid var(--border-gray-color);
+}
+
+.table--custom th[scope="row"] {
+  border-bottom: none;
+  padding: 0;
+  padding-right: 1rem;
+}
+
+.table--custom th[scope="row"] p {
+  margin-bottom: 0 !important;
+}
+
+.table--custom th[scope="row"] p:nth-child(1) {
+  text-transform: uppercase;
+}
+
+.table--custom th[scope="row"] p:not(:nth-child(1)) {
+  font-weight: normal;
+}
+
+.table--custom td {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  font-size: 0.75rem;
+  font-weight: 500;
+  text-transform: uppercase;
+  background-repeat: no-repeat;
+  overflow: hidden;
+  white-space: nowrap;
+  padding-left: 0;
+  border-bottom: none;
+  padding: 0;
+}
+
+.table--custom td[data-appearance] {
+  background-position: right center;
+  text-indent: 100%;
+}
+
+.table--custom td[data-appearance="Check"] {
+  background-image: url(../../images/check-icon.svg);
+}
+
+.table--custom td[data-appearance="Empty"] {
+  background-image: url(../../images/uncheck-icon.svg);
+}
+
+.table--custom td::before {
+  content: attr(data-product);
+  justify-self: flex-start;
+  text-indent: 0px;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  display: grid;
+}
+
+.table--custom td[data-appearance] p {
+  display: none;
+}
+
+@media (min-width: 768px) {
+  .d-md-table-header-group {
+    display: table-header-group !important;
+  }
+
+  .table--custom tr {
+    display: table-row;
+  }
+
+  .table--custom tr:first-child {
+    border-top: 0;
+  }
+
+  .table--custom th[scope="row"] {
+    width: auto;
+    display: table-cell;
+    border-right: 1px solid var(--border-gray-color);
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+
+  .table--custom td {
+    display: table-cell;
+    width: 13%;
+    padding: 1.25rem 1rem;
+    border-right: 1px solid var(--border-gray-color);
+    text-align: center;
+    vertical-align: middle;
+  }
+
+  .table--custom td p {
+    margin-bottom: 0;
+    white-space: normal;
+  }
+
+  .table--custom td[data-appearance] {
+    background-position: center;
+  }
+
+  .table--custom td::before {
+    display: none;
+  }
+}

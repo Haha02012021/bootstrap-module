@@ -1,0 +1,1438 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="assets/css/index.css" />
+    <title>Manage Your Team’s Projects From Anywhere | Trello</title>
+    <script defer src="vendors/boostrap/js/bootstrap.bundle.min.js"></script>
+  </head>
+  <body>
+    <header
+      id="header"
+      class="mx-auto fixed-top p-3 p-lg-0 h-70px h-lg-60px overflow-hidden w-100 bg-header"
+    >
+      <div class="d-flex justify-content-between mx-auto max-w-1320px">
+        <a href="#" class="my-auto px-3"
+          ><img
+            src="assets/images/trello-logo-color.svg"
+            class="img-fluid"
+            alt="Trello logo"
+        /></a>
+        <div id="menu" class="d-none d-lg-flex justify-content-between w-100">
+          <nav class="nav">
+            <a
+              href="#"
+              class="nav-link fs-6 text-dark p-3 pt-20px d-flex align-items-center gap-1"
+            >
+              <span>Features</span>
+              <i class="fs-8px fa fa-chevron-down"></i>
+            </a>
+            <a
+              href="#"
+              class="nav-link fs-6 text-dark p-3 pt-20px d-flex align-items-center gap-1"
+            >
+              <span>Solutions</span>
+              <i class="fs-8px fa fa-chevron-down"></i>
+            </a>
+            <a
+              href="#"
+              class="nav-link fs-6 text-dark p-3 pt-20px d-flex align-items-center gap-1"
+            >
+              <span>Plans</span>
+              <i class="fs-8px fa fa-chevron-down"></i>
+            </a>
+            <a
+              href="#"
+              class="nav-link fs-6 text-dark p-3 pt-20px d-flex align-items-center gap-1"
+            >
+              <span>Pricing</span>
+            </a>
+            <a
+              href="#"
+              class="nav-link fs-6 text-dark p-3 pt-20px d-flex align-items-center gap-1"
+            >
+              <span>Resources</span>
+              <i class="fs-8px fa fa-chevron-down"></i>
+            </a>
+          </nav>
+          <div class="d-flex">
+            <a type="button" class="btn fs-5 d-flex align-items-center px-24px"
+              >Log in</a
+            >
+            <a
+              type="button"
+              class="btn btn-primary h-100 d-flex align-items-center fs-5 rounded-0 px-24px"
+              >Get Trello for free</a
+            >
+          </div>
+        </div>
+        <a
+          href="#menu"
+          class="d-block d-lg-none my-auto w-56px"
+          title="menu icon"
+        >
+          <div class="w-24px h-24px mx-auto position-relative menu-icon">
+            <span
+              class="bg-dark rounded position-absolute opacity-1 trasition-ease start-0 d-block h-3px w-24px rotate-0deg"
+            ></span>
+            <span
+              class="bg-dark rounded position-absolute opacity-1 trasition-ease start-0 d-block h-3px w-24px rotate-0deg"
+            ></span>
+            <span
+              class="bg-dark rounded position-absolute opacity-1 trasition-ease start-0 d-block h-3px w-24px rotate-0deg"
+            ></span>
+          </div>
+        </a>
+      </div>
+    </header>
+    <main>
+      <section class="bg-linear-purle-white px-3 pt-5rem pb-5 text-center">
+        <div class="container">
+          <h1 class="font-family-display mb-1 fs-lg-3rem">Trello your way.</h1>
+          <p class="fs-5">
+            Trusted by millions, Trello powers teams all around the world.
+            <br />
+            Explore which option is right for you.
+          </p>
+        </div>
+      </section>
+      <section class="text-dark">
+        <div class="container">
+          <div class="pt-3">
+            <div class="row">
+              <div
+                class="col-12 col-lg-3 col-12 col-lg-3 bg-light border-gray px-3 pt-4 pb-2rem mb-3"
+              >
+                <h3 class="text-uppercase font-family-display fs-6">Free</h3>
+                <span class="pt-4 fs-3rem ln-1 mb-1 d-block"
+                  ><span class="fs-6">$</span>0<span class="fs-6">USD</span>
+                </span>
+                <small class="d-block text-gray fs-12px m-0"
+                  >Free for your whole team</small
+                >
+                <p class="pt-4">
+                  For individuals or teams looking to organize any project.
+                </p>
+                <a
+                  href="#"
+                  class="btn btn--custom btn-outline-primary btn-outline-primary--blue mt-4"
+                  >Get started</a
+                >
+              </div>
+              <div
+                class="col-12 col-lg-3 bg-light border-gray px-3 pt-4 pb-2rem mb-3"
+              >
+                <h3 class="text-uppercase font-family-display fs-6">
+                  Standard
+                </h3>
+                <span class="pt-4 fs-3rem ln-1 mb-1 d-block"
+                  ><span class="fs-6">$</span>5<span class="fs-6">USD</span>
+                </span>
+                <small class="d-block"
+                  >Per user/month if billed annually ($6 billed monthly)</small
+                >
+                <p class="pt-4">
+                  For small teams that need to manage work and scale
+                  collaboration.
+                </p>
+                <a
+                  href="#"
+                  class="btn btn--custom btn-outline-primary btn-outline-primary--blue mt-4"
+                  >Sign up now</a
+                >
+                <a href="#" class="pt-4 d-block">Learn more about Standard</a>
+              </div>
+              <div
+                class="col-12 col-lg-3 border border-1 border-blue-2 px-3 pt-4 pb-2rem mb-3"
+              >
+                <h3 class="text-uppercase font-family-display fs-6">Premium</h3>
+                <span class="pt-4 fs-3rem ln-1 mb-1 d-block"
+                  ><span class="fs-6">$</span>10<span class="fs-6">USD</span>
+                </span>
+                <small class="d-block"
+                  >Per user/month if billed annually ($12.50 billed
+                  monthly)</small
+                >
+                <p class="pt-4">
+                  For teams that need to track and visualize multiple projects
+                  in several ways, including boards, timelines, calendars, etc.
+                </p>
+                <a
+                  href="#"
+                  class="btn btn--custom btn-outline-primary btn-outline-primary--blue btn-outline-primary--blue-highlight mt-4"
+                  >Try for free</a
+                >
+                <a href="#" class="pt-4 d-block">Learn more about Premium</a>
+              </div>
+              <div
+                class="col-12 col-lg-3 bg-light border-gray px-3 pt-4 pb-2rem mb-3"
+              >
+                <h3 class="text-uppercase font-family-display fs-6">
+                  Enterprise
+                </h3>
+                <span class="pt-4 fs-3rem ln-1 mb-1 d-block"
+                  ><span class="fs-6">$</span>17.50<span class="fs-6">USD</span>
+                </span>
+                <small class="d-block"
+                  >Per user/month - billed annually ($210.00 annual price per
+                  user)</small
+                >
+                <p class="pt-4">
+                  For organizations that need to connect work across teams with
+                  more security and controls.
+                </p>
+                <div class="mt-3">
+                  <div class="section__description section__description--plans">
+                    <span>Est. cost for</span>
+                    <input
+                      type="number"
+                      value="50"
+                      min="50"
+                      max="5000"
+                      aria-label="Users"
+                      class="border-0 border-bottom border-1 border-dark fs-4 mx-1 text-center w-72px"
+                    />
+                    <span>users</span>
+                  </div>
+                  <input
+                    type="range"
+                    value="50"
+                    min="50"
+                    max="5000"
+                    aria-label="Users"
+                    class="input-range"
+                  />
+                </div>
+                <a
+                  href="#"
+                  class="btn btn-outline-primary btn-outline-primary--blue mt-4 btn--custom"
+                  >Contact sales</a
+                >
+                <a href="#" class="pt-4 d-block">Learn more about Enterprise</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section>
+        <div class="container py-3">
+          <h2 class="font-family-display lh-13 fs-3 mb-2 text-center">
+            Compare our plans
+          </h2>
+          <div class="d-flex flex-column gap-4">
+            <div class="input-group mb-3 max-w-22rem mx-auto">
+              <div class="input-group-prepend">
+                <span
+                  class="input-group-text h-100 bg-transparent rounded-0 rounded-start border-right-0 fs-12px text-gray"
+                  id="search"
+                  ><i class="fa-solid fa-magnifying-glass"></i
+                ></span>
+              </div>
+              <input
+                type="search"
+                class="form-control border-start-0 p-0 py-2 pe-72px"
+                placeholder="Search"
+                aria-label="Search"
+                aria-describedby="search"
+              />
+            </div>
+            <table class="table table--custom">
+              <thead class="d-none d-md-table-header-group">
+                <tr>
+                  <th
+                    scope="col"
+                    class="p-0 pb-12px pe-3 pt-20px text-uppercase"
+                  >
+                    Features
+                  </th>
+                  <th
+                    scope="col"
+                    class="p-0 px-3 pb-12px pe-3 pt-20px text-center text-uppercase"
+                  >
+                    Free
+                  </th>
+                  <th
+                    scope="col"
+                    class="p-0 px-3 pb-12px pe-3 pt-20px text-center text-uppercase"
+                  >
+                    Standard
+                  </th>
+                  <th
+                    scope="col"
+                    class="p-0 px-3 pb-12px pe-3 pt-20px text-center text-uppercase"
+                  >
+                    Premium
+                  </th>
+                  <th
+                    scope="col"
+                    class="p-0 px-3 pb-12px pe-3 pt-20px text-center text-uppercase"
+                  >
+                    Enterprise
+                  </th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <th scope="row">
+                    <p>Unlimited cards</p>
+                  </th>
+                  <td data-product="Free" data-appearance="Check">
+                    <div><p>True</p></div>
+                  </td>
+                  <td data-product="Standard" data-appearance="Check">
+                    <div><p>True</p></div>
+                  </td>
+                  <td data-product="Premium" data-appearance="Check">
+                    <div><p>True</p></div>
+                  </td>
+                  <td data-product="Enterprise" data-appearance="Check">
+                    <div><p>True</p></div>
+                  </td>
+                </tr>
+                <tr>
+                  <th scope="row">
+                    <p>Built-in automation</p>
+                    <p>
+                      Powerful no-code automation is built into every Trello
+                      board.
+                    </p>
+                    <p>
+                      <a href="#">Start automating</a>
+                    </p>
+                  </th>
+                  <td data-product="Free" data-appearance="Check">
+                    <div><p>True</p></div>
+                  </td>
+                  <td data-product="Standard" data-appearance="Check">
+                    <div><p>True</p></div>
+                  </td>
+                  <td data-product="Premium" data-appearance="Check">
+                    <div><p>True</p></div>
+                  </td>
+                  <td data-product="Enterprise" data-appearance="Check">
+                    <div><p>True</p></div>
+                  </td>
+                </tr>
+                <tr>
+                  <th scope="row">
+                    <p>Assignee and due dates</p>
+                  </th>
+                  <td data-product="Free" data-appearance="Check">
+                    <div><p>True</p></div>
+                  </td>
+                  <td data-product="Standard" data-appearance="Check">
+                    <div><p>True</p></div>
+                  </td>
+                  <td data-product="Premium" data-appearance="Check">
+                    <div><p>True</p></div>
+                  </td>
+                  <td data-product="Enterprise" data-appearance="Check">
+                    <div><p>True</p></div>
+                  </td>
+                </tr>
+                <tr>
+                  <th scope="row">
+                    <p>iOS and Android mobile apps</p>
+                    <p>
+                      <a href="#">Download mobile apps</a>
+                    </p>
+                  </th>
+                  <td data-product="Free" data-appearance="Check">
+                    <div><p>True</p></div>
+                  </td>
+                  <td data-product="Standard" data-appearance="Check">
+                    <div><p>True</p></div>
+                  </td>
+                  <td data-product="Premium" data-appearance="Check">
+                    <div><p>True</p></div>
+                  </td>
+                  <td data-product="Enterprise" data-appearance="Check">
+                    <div><p>True</p></div>
+                  </td>
+                </tr>
+                <tr>
+                  <th scope="row">
+                    <p>Desktop app</p>
+                    <p>
+                      <a href="#">Download desktop app</a>
+                    </p>
+                  </th>
+                  <td data-product="Free" data-appearance="Check">
+                    <div><p>True</p></div>
+                  </td>
+                  <td data-product="Standard" data-appearance="Check">
+                    <div><p>True</p></div>
+                  </td>
+                  <td data-product="Premium" data-appearance="Check">
+                    <div><p>True</p></div>
+                  </td>
+                  <td data-product="Enterprise" data-appearance="Check">
+                    <div><p>True</p></div>
+                  </td>
+                </tr>
+                <tr>
+                  <th scope="row">
+                    <p>Unlimited activity logs</p>
+                  </th>
+                  <td data-product="Free" data-appearance="Check">
+                    <div><p>True</p></div>
+                  </td>
+                  <td data-product="Standard" data-appearance="Check">
+                    <div><p>True</p></div>
+                  </td>
+                  <td data-product="Premium" data-appearance="Check">
+                    <div><p>True</p></div>
+                  </td>
+                  <td data-product="Enterprise" data-appearance="Check">
+                    <div><p>True</p></div>
+                  </td>
+                </tr>
+                <tr>
+                  <th scope="row">
+                    <p>Trello templates</p>
+                    <p>
+                      Give your team a blueprint for success with tried-and-true
+                      templates from the Trello community.
+                    </p>
+                    <p>
+                      <a href="#">Try a template</a>
+                    </p>
+                  </th>
+                  <td data-product="Free" data-appearance="Check">
+                    <div><p>True</p></div>
+                  </td>
+                  <td data-product="Standard" data-appearance="Check">
+                    <div><p>True</p></div>
+                  </td>
+                  <td data-product="Premium" data-appearance="Check">
+                    <div><p>True</p></div>
+                  </td>
+                  <td data-product="Enterprise" data-appearance="Check">
+                    <div><p>True</p></div>
+                  </td>
+                </tr>
+                <tr>
+                  <th scope="row">
+                    <p>2-factor authentication</p>
+                  </th>
+                  <td data-product="Free" data-appearance="Check">
+                    <div><p>True</p></div>
+                  </td>
+                  <td data-product="Standard" data-appearance="Check">
+                    <div><p>True</p></div>
+                  </td>
+                  <td data-product="Premium" data-appearance="Check">
+                    <div><p>True</p></div>
+                  </td>
+                  <td data-product="Enterprise" data-appearance="Check">
+                    <div><p>True</p></div>
+                  </td>
+                </tr>
+                <tr>
+                  <th scope="row">
+                    <p>Mobile device management</p>
+                    <p>
+                      Enforce security controls on mobile app usage through
+                      built-in mobile device management (MDM) support for iOS
+                      and Android.
+                    </p>
+                  </th>
+                  <td data-product="Free" data-appearance="Check">
+                    <div><p>True</p></div>
+                  </td>
+                  <td data-product="Standard" data-appearance="Check">
+                    <div><p>True</p></div>
+                  </td>
+                  <td data-product="Premium" data-appearance="Check">
+                    <div><p>True</p></div>
+                  </td>
+                  <td data-product="Enterprise" data-appearance="Check">
+                    <div><p>True</p></div>
+                  </td>
+                </tr>
+                <tr>
+                  <th scope="row">
+                    <p>Unlimited power-ups</p>
+                    <p>
+                      Integrate with more than 200+ apps and tools your team
+                      depends on like Slack, Google Drive, Salesforce, and more
+                      directly into your Trello boards. (Note: Some Power-Ups by
+                      our partners require an additional subscription fee.)
+                    </p>
+                    <p>
+                      <a href="#" aria-label="Learn more about Power-ups"
+                        >Learn more</a
+                      >
+                    </p>
+                  </th>
+                  <td data-product="Free" data-appearance="Check">
+                    <div><p>True</p></div>
+                  </td>
+                  <td data-product="Standard" data-appearance="Check">
+                    <div><p>True</p></div>
+                  </td>
+                  <td data-product="Premium" data-appearance="Check">
+                    <div><p>True</p></div>
+                  </td>
+                  <td data-product="Enterprise" data-appearance="Check">
+                    <div><p>True</p></div>
+                  </td>
+                </tr>
+                <tr>
+                  <th scope="row">
+                    <p>Unlimited boards</p>
+                    <p>
+                      Create as many Trello boards as your team sees fit; from
+                      onboarding new hires, to sprint planning, and every team
+                      meeting agenda in between.
+                    </p>
+                  </th>
+                  <td data-product="Free" data-appearance="Empty">
+                    <div><p>False</p></div>
+                  </td>
+                  <td data-product="Standard" data-appearance="Check">
+                    <div><p>True</p></div>
+                  </td>
+                  <td data-product="Premium" data-appearance="Check">
+                    <div><p>True</p></div>
+                  </td>
+                  <td data-product="Enterprise" data-appearance="Check">
+                    <div><p>True</p></div>
+                  </td>
+                </tr>
+                <tr>
+                  <th scope="row">
+                    <p>Advanced checklists</p>
+                    <p>
+                      Break down projects into byte-sized tasks and get granular
+                      by assigning members and due dates to individual tasks.
+                    </p>
+                  </th>
+                  <td data-product="Free" data-appearance="Empty">
+                    <div><p>False</p></div>
+                  </td>
+                  <td data-product="Standard" data-appearance="Check">
+                    <div><p>True</p></div>
+                  </td>
+                  <td data-product="Premium" data-appearance="Check">
+                    <div><p>True</p></div>
+                  </td>
+                  <td data-product="Enterprise" data-appearance="Check">
+                    <div><p>True</p></div>
+                  </td>
+                </tr>
+                <tr>
+                  <th scope="row">
+                    <p>Custom fields</p>
+                    <p>
+                      Bring process and formality to your workflow by
+                      structuring information on Trello cards to the task at
+                      hand with Custom Fields.
+                    </p>
+                  </th>
+                  <td data-product="Free" data-appearance="Empty">
+                    <div><p>False</p></div>
+                  </td>
+                  <td data-product="Standard" data-appearance="Check">
+                    <div><p>True</p></div>
+                  </td>
+                  <td data-product="Premium" data-appearance="Check">
+                    <div><p>True</p></div>
+                  </td>
+                  <td data-product="Enterprise" data-appearance="Check">
+                    <div><p>True</p></div>
+                  </td>
+                </tr>
+                <tr>
+                  <th scope="row">
+                    <p>Dashboard view</p>
+                    <p>
+                      Trello’s reporting tool lets you access real-time insights
+                      and communicate your team’s progress in a visual and
+                      meaningful way.
+                    </p>
+                    <p>
+                      <a href="#" aria-label="Learn more about Dashboard view"
+                        >Learn more</a
+                      >
+                    </p>
+                  </th>
+                  <td data-product="Free" data-appearance="Empty">
+                    <div><p>False</p></div>
+                  </td>
+                  <td data-product="Standard" data-appearance="Empty">
+                    <div><p>False</p></div>
+                  </td>
+                  <td data-product="Premium" data-appearance="Check">
+                    <div><p>True</p></div>
+                  </td>
+                  <td data-product="Enterprise" data-appearance="Check">
+                    <div><p>True</p></div>
+                  </td>
+                </tr>
+                <tr>
+                  <th scope="row">
+                    <p>Timeline view</p>
+                    <p>
+                      Plan your project, stay on top of every sprint, and see
+                      how all of the moving parts fit together over time with
+                      Timeline.
+                    </p>
+                    <p>
+                      <a href="#" aria-label="Learn more about Timeline view"
+                        >Learn more</a
+                      >
+                    </p>
+                  </th>
+                  <td data-product="Free" data-appearance="Empty">
+                    <div><p>False</p></div>
+                  </td>
+                  <td data-product="Standard" data-appearance="Empty">
+                    <div><p>False</p></div>
+                  </td>
+                  <td data-product="Premium" data-appearance="Check">
+                    <div><p>True</p></div>
+                  </td>
+                  <td data-product="Enterprise" data-appearance="Check">
+                    <div><p>True</p></div>
+                  </td>
+                </tr>
+                <tr>
+                  <th scope="row">
+                    <p>Table View</p>
+                    <p>
+                      Bring a clearer perspective to all the work happening
+                      across a single board in a list format where you can
+                      create and edit cards in just a few clicks.
+                    </p>
+                    <p>
+                      <a href="#" aria-label="Learn more about Table view"
+                        >Learn more</a
+                      >
+                    </p>
+                  </th>
+                  <td data-product="Free" data-appearance="Empty">
+                    <div><p>False</p></div>
+                  </td>
+                  <td data-product="Standard" data-appearance="Empty">
+                    <div><p>False</p></div>
+                  </td>
+                  <td data-product="Premium" data-appearance="Check">
+                    <div><p>True</p></div>
+                  </td>
+                  <td data-product="Enterprise" data-appearance="Check">
+                    <div><p>True</p></div>
+                  </td>
+                </tr>
+                <tr>
+                  <th scope="row">
+                    <p>Calendar view</p>
+                    <p>
+                      Calendar displays start dates, due dates, and advanced
+                      checklist items so you can see what lies ahead for your
+                      project and stay on top of today’s to-dos.
+                    </p>
+                    <p>
+                      <a href="#" aria-label="Learn more about Calendar view"
+                        >Learn more</a
+                      >
+                    </p>
+                  </th>
+                  <td data-product="Free" data-appearance="Empty">
+                    <div><p>False</p></div>
+                  </td>
+                  <td data-product="Standard" data-appearance="Empty">
+                    <div><p>False</p></div>
+                  </td>
+                  <td data-product="Premium" data-appearance="Check">
+                    <div><p>True</p></div>
+                  </td>
+                  <td data-product="Enterprise" data-appearance="Check">
+                    <div><p>True</p></div>
+                  </td>
+                </tr>
+                <tr>
+                  <th scope="row">
+                    <p>Map view</p>
+                    <p>
+                      Plan an offsite, scout new office locations, or manage
+                      product distribution points by adding locations to your
+                      cards and visualizing them geographically on a map.
+                    </p>
+                    <p>
+                      <a href="#" aria-label="Learn more about Map view"
+                        >Learn more</a
+                      >
+                    </p>
+                  </th>
+                  <td data-product="Free" data-appearance="Empty">
+                    <div><p>False</p></div>
+                  </td>
+                  <td data-product="Standard" data-appearance="Empty">
+                    <div><p>False</p></div>
+                  </td>
+                  <td data-product="Premium" data-appearance="Check">
+                    <div><p>True</p></div>
+                  </td>
+                  <td data-product="Enterprise" data-appearance="Check">
+                    <div><p>True</p></div>
+                  </td>
+                </tr>
+                <tr>
+                  <th scope="row">
+                    <p>Workspace table view</p>
+                    <p>
+                      See your projects and tasks across Workspaces and boards
+                      in a spreadsheet-style list that can be sorted and
+                      filtered to drill down to exactly the cards you need to
+                      see.
+                    </p>
+                    <p>
+                      <a href="#" aria-label="Learn more about Workspace views"
+                        >Learn more</a
+                      >
+                    </p>
+                  </th>
+                  <td data-product="Free" data-appearance="Empty">
+                    <div><p>False</p></div>
+                  </td>
+                  <td data-product="Standard" data-appearance="Empty">
+                    <div><p>False</p></div>
+                  </td>
+                  <td data-product="Premium" data-appearance="Check">
+                    <div><p>True</p></div>
+                  </td>
+                  <td data-product="Enterprise" data-appearance="Check">
+                    <div><p>True</p></div>
+                  </td>
+                </tr>
+                <tr>
+                  <th scope="row">
+                    <p>Workspace calendar view</p>
+                    <p>
+                      Workspace calendar displays items with start dates and due
+                      dates across your projects and boards, so you can see what
+                      lies ahead for all your teamwork.
+                    </p>
+                    <p>
+                      <a href="#" aria-label="Learn more about Workspace views"
+                        >Learn more</a
+                      >
+                    </p>
+                  </th>
+                  <td data-product="Free" data-appearance="Empty">
+                    <div><p>False</p></div>
+                  </td>
+                  <td data-product="Standard" data-appearance="Empty">
+                    <div><p>False</p></div>
+                  </td>
+                  <td data-product="Premium" data-appearance="Check">
+                    <div><p>True</p></div>
+                  </td>
+                  <td data-product="Enterprise" data-appearance="Check">
+                    <div><p>True</p></div>
+                  </td>
+                </tr>
+                <tr>
+                  <th scope="row">
+                    <p>Workspace-level templates</p>
+                  </th>
+                  <td data-product="Free" data-appearance="Empty">
+                    <div><p>False</p></div>
+                  </td>
+                  <td data-product="Standard" data-appearance="Empty">
+                    <div><p>False</p></div>
+                  </td>
+                  <td data-product="Premium" data-appearance="Check">
+                    <div><p>True</p></div>
+                  </td>
+                  <td data-product="Enterprise" data-appearance="Check">
+                    <div><p>True</p></div>
+                  </td>
+                </tr>
+                <tr>
+                  <th scope="row">
+                    <p>Command run administration</p>
+                    <p>
+                      Premium or Enterprise administrators can disable commands
+                      on behalf of other users, and perform other command
+                      maintenance.
+                    </p>
+                  </th>
+                  <td data-product="Free" data-appearance="Empty">
+                    <div><p>False</p></div>
+                  </td>
+                  <td data-product="Standard" data-appearance="Empty">
+                    <div><p>False</p></div>
+                  </td>
+                  <td data-product="Premium" data-appearance="Check">
+                    <div><p>True</p></div>
+                  </td>
+                  <td data-product="Enterprise" data-appearance="Check">
+                    <div><p>True</p></div>
+                  </td>
+                </tr>
+                <tr>
+                  <th scope="row">
+                    <p>Board collections</p>
+                    <p>
+                      Premium and Enterprise teams can use Board Collections to
+                      easily group boards together whether by Workspace,
+                      department, or major project.
+                    </p>
+                  </th>
+                  <td data-product="Free" data-appearance="Empty">
+                    <div><p>False</p></div>
+                  </td>
+                  <td data-product="Standard" data-appearance="Empty">
+                    <div><p>False</p></div>
+                  </td>
+                  <td data-product="Premium" data-appearance="Check">
+                    <div><p>True</p></div>
+                  </td>
+                  <td data-product="Enterprise" data-appearance="Check">
+                    <div><p>True</p></div>
+                  </td>
+                </tr>
+                <tr>
+                  <th scope="row">
+                    <p>Observers</p>
+                    <p>
+                      Observers are a Premium security setting that limit a
+                      user’s actions within a board.
+                    </p>
+                  </th>
+                  <td data-product="Free" data-appearance="Empty">
+                    <div><p>False</p></div>
+                  </td>
+                  <td data-product="Standard" data-appearance="Empty">
+                    <div><p>False</p></div>
+                  </td>
+                  <td data-product="Premium" data-appearance="Check">
+                    <div><p>True</p></div>
+                  </td>
+                  <td data-product="Enterprise" data-appearance="Check">
+                    <div><p>True</p></div>
+                  </td>
+                </tr>
+                <tr>
+                  <th scope="row">
+                    <p>Domain-restricted invites</p>
+                  </th>
+                  <td data-product="Free" data-appearance="Empty">
+                    <div><p>False</p></div>
+                  </td>
+                  <td data-product="Standard" data-appearance="Empty">
+                    <div><p>False</p></div>
+                  </td>
+                  <td data-product="Premium" data-appearance="Check">
+                    <div><p>True</p></div>
+                  </td>
+                  <td data-product="Enterprise" data-appearance="Check">
+                    <div><p>True</p></div>
+                  </td>
+                </tr>
+                <tr>
+                  <th scope="row">
+                    <p>Deactivate members</p>
+                  </th>
+                  <td data-product="Free" data-appearance="Empty">
+                    <div><p>False</p></div>
+                  </td>
+                  <td data-product="Standard" data-appearance="Empty">
+                    <div><p>False</p></div>
+                  </td>
+                  <td data-product="Premium" data-appearance="Check">
+                    <div><p>True</p></div>
+                  </td>
+                  <td data-product="Enterprise" data-appearance="Check">
+                    <div><p>True</p></div>
+                  </td>
+                </tr>
+                <tr>
+                  <th scope="row">
+                    <p>Simple data export</p>
+                  </th>
+                  <td data-product="Free" data-appearance="Empty">
+                    <div><p>False</p></div>
+                  </td>
+                  <td data-product="Standard" data-appearance="Empty">
+                    <div><p>False</p></div>
+                  </td>
+                  <td data-product="Premium" data-appearance="Check">
+                    <div><p>True</p></div>
+                  </td>
+                  <td data-product="Enterprise" data-appearance="Check">
+                    <div><p>True</p></div>
+                  </td>
+                </tr>
+                <tr>
+                  <th scope="row">
+                    <p>Unlimited command runs</p>
+                  </th>
+                  <td data-product="Free" data-appearance="Empty">
+                    <div><p>False</p></div>
+                  </td>
+                  <td data-product="Standard" data-appearance="Empty">
+                    <div><p>False</p></div>
+                  </td>
+                  <td data-product="Premium" data-appearance="Check">
+                    <div><p>True</p></div>
+                  </td>
+                  <td data-product="Enterprise" data-appearance="Check">
+                    <div><p>True</p></div>
+                  </td>
+                </tr>
+                <tr>
+                  <th scope="row">
+                    <p>SAML SSO via Atlassian Access</p>
+                    <p>
+                      Atlassian Access is a separate subscription that your
+                      company can enable across all your Atlassian products and
+                      starts at $4/month/user.
+                    </p>
+                    <p>
+                      <a
+                        href="#"
+                        aria-label="Learn more about SAML SSO"
+                        target="_blank"
+                        rel="noopener"
+                        >Learn more</a
+                      >
+                    </p>
+                  </th>
+                  <td data-product="Free">
+                    <div><p>Available</p></div>
+                  </td>
+                  <td data-product="Standard">
+                    <div><p>Available</p></div>
+                  </td>
+                  <td data-product="Premium">
+                    <div><p>Available</p></div>
+                  </td>
+                  <td data-product="Enterprise" data-appearance="Check">
+                    <div><p>True</p></div>
+                  </td>
+                </tr>
+                <tr>
+                  <th scope="row">
+                    <p>Unlimited workspaces</p>
+                  </th>
+                  <td data-product="Free" data-appearance="Empty">
+                    <div><p>False</p></div>
+                  </td>
+                  <td data-product="Standard" data-appearance="Empty">
+                    <div><p>False</p></div>
+                  </td>
+                  <td data-product="Premium" data-appearance="Empty">
+                    <div><p>False</p></div>
+                  </td>
+                  <td data-product="Enterprise" data-appearance="Check">
+                    <div><p>True</p></div>
+                  </td>
+                </tr>
+                <tr>
+                  <th scope="row">
+                    <p>Power-up administration</p>
+                  </th>
+                  <td data-product="Free" data-appearance="Empty">
+                    <div><p>False</p></div>
+                  </td>
+                  <td data-product="Standard" data-appearance="Empty">
+                    <div><p>False</p></div>
+                  </td>
+                  <td data-product="Premium" data-appearance="Empty">
+                    <div><p>False</p></div>
+                  </td>
+                  <td data-product="Enterprise" data-appearance="Check">
+                    <div><p>True</p></div>
+                  </td>
+                </tr>
+                <tr>
+                  <th scope="row">
+                    <p>Attachment restrictions</p>
+                  </th>
+                  <td data-product="Free" data-appearance="Empty">
+                    <div><p>False</p></div>
+                  </td>
+                  <td data-product="Standard" data-appearance="Empty">
+                    <div><p>False</p></div>
+                  </td>
+                  <td data-product="Premium" data-appearance="Empty">
+                    <div><p>False</p></div>
+                  </td>
+                  <td data-product="Enterprise" data-appearance="Check">
+                    <div><p>True</p></div>
+                  </td>
+                </tr>
+                <tr>
+                  <th scope="row">
+                    <p>Organization wide permissions</p>
+                  </th>
+                  <td data-product="Free" data-appearance="Empty">
+                    <div><p>False</p></div>
+                  </td>
+                  <td data-product="Standard" data-appearance="Empty">
+                    <div><p>False</p></div>
+                  </td>
+                  <td data-product="Premium" data-appearance="Empty">
+                    <div><p>False</p></div>
+                  </td>
+                  <td data-product="Enterprise" data-appearance="Check">
+                    <div><p>True</p></div>
+                  </td>
+                </tr>
+                <tr>
+                  <th scope="row">
+                    <p>Organization visible boards</p>
+                  </th>
+                  <td data-product="Free" data-appearance="Empty">
+                    <div><p>False</p></div>
+                  </td>
+                  <td data-product="Standard" data-appearance="Empty">
+                    <div><p>False</p></div>
+                  </td>
+                  <td data-product="Premium" data-appearance="Empty">
+                    <div><p>False</p></div>
+                  </td>
+                  <td data-product="Enterprise" data-appearance="Check">
+                    <div><p>True</p></div>
+                  </td>
+                </tr>
+                <tr>
+                  <th scope="row">
+                    <p>Public board management</p>
+                  </th>
+                  <td data-product="Free" data-appearance="Empty">
+                    <div><p>False</p></div>
+                  </td>
+                  <td data-product="Standard" data-appearance="Empty">
+                    <div><p>False</p></div>
+                  </td>
+                  <td data-product="Premium" data-appearance="Empty">
+                    <div><p>False</p></div>
+                  </td>
+                  <td data-product="Enterprise" data-appearance="Check">
+                    <div><p>True</p></div>
+                  </td>
+                </tr>
+                <tr>
+                  <th scope="row">
+                    <p>Support</p>
+                    <p>
+                      <a
+                        href="#"
+                        aria-label="Learn more about Support"
+                        target="_blank"
+                        rel="noopener"
+                        >Learn more</a
+                      >
+                    </p>
+                  </th>
+                  <td data-product="Free">
+                    <div><p>Community Support</p></div>
+                  </td>
+                  <td data-product="Standard">
+                    <div><p>Local Business Hours</p></div>
+                  </td>
+                  <td data-product="Premium">
+                    <div><p>24/5 Premium Support</p></div>
+                  </td>
+                  <td data-product="Enterprise">
+                    <div><p>24/7 Enterprise Admin Support</p></div>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+            <div class="d-flex flex-column align-items-center">
+              <h3 class="fs-5 font-family-display">
+                Didn’t find what you were looking for?
+              </h3>
+              <a href="#" class="btn btn--custom btn-outline-primary"
+                >Make a suggestion</a
+              >
+            </div>
+          </div>
+        </div>
+      </section>
+      <section>
+        <div class="container pt-3 pb-5rem">
+          <h2 class="fs-3 font-family-display ln-13 mb-2 text-center">
+            Frequently asked questions
+          </h2>
+          <ul class="mt-44px list-group">
+            <li
+              class="list-group-item fw-medium border-start-0 border-end-0 border-top-0 px-0 py-3 fs-5 font-family-display"
+            >
+              <a
+                class="text-dark text-decoration-none"
+                role="button"
+                href="#answer1"
+                data-bs-toggle="collapse"
+                aria-controls="answer1"
+              >
+                <span class="me-2">+</span>
+                Does Trello offer a Premium free trial?</a
+              >
+              <div class="collapse" id="answer1">
+                <p class="fw-normal ps-20px pt-3">
+                  We sure do. All users can enroll their Workspace in a
+                  <a href="#">free trial of Trello Premium</a>. With that trial
+                  your Workspace will get access to create unlimited Trello
+                  boards, automate as much as you’d like, take advantage of
+                  Timeline, Dashboard, and other new views, and much more!
+                </p>
+              </div>
+            </li>
+            <li
+              class="list-group-item fw-medium border-start-0 border-end-0 border-top-0 px-0 py-3 fs-5 font-family-display"
+            >
+              <a
+                class="text-dark text-decoration-none"
+                role="button"
+                href="#answer2"
+                data-bs-toggle="collapse"
+                aria-controls="answer2"
+              >
+                <span class="me-2">+</span>
+                Do you offer any discounted plans?</a
+              >
+              <div class="collapse" id="answer2">
+                <p class="fw-normal ps-20px pt-3">
+                  Yes! Trello offers both a
+                  <a href="#">non-profit community discount</a>
+                  as well as an
+                  <a href="#">education discount</a>.
+                </p>
+              </div>
+            </li>
+            <li
+              class="list-group-item fw-medium border-start-0 border-end-0 border-top-0 px-0 py-3 fs-5 font-family-display"
+            >
+              <a
+                class="text-dark text-decoration-none"
+                role="button"
+                href="#answer3"
+                data-bs-toggle="collapse"
+                aria-controls="answer3"
+              >
+                <span class="me-2">+</span>
+                What payment methods do you accept?</a
+              >
+              <div class="collapse" id="answer3">
+                <p class="fw-normal ps-20px pt-3">
+                  You can purchase a monthly or annual Trello Standard or
+                  Premium subscription with any major credit card. We offer more
+                  options for Enterprise customers, if you’re interested in
+                  learning more about Trello Enterprise
+                  <a href="#">contact our sales team.</a>
+                </p>
+              </div>
+            </li>
+            <li
+              class="list-group-item fw-medium border-start-0 border-end-0 border-top-0 px-0 py-3 fs-5 font-family-display"
+            >
+              <a>
+                <span class="me-2">+</span>
+                How do I cancel my Trello Standard or Premium subscription?</a
+              >
+            </li>
+            <li
+              class="list-group-item fw-medium border-start-0 border-end-0 border-top-0 px-0 py-3 fs-5 font-family-display"
+            >
+              <a>
+                <span class="me-2">+</span>
+                How are users counted towards billing?</a
+              >
+            </li>
+            <li
+              class="list-group-item fw-medium border-start-0 border-end-0 border-top-0 px-0 py-3 fs-5 font-family-display"
+            >
+              <a>
+                <span class="me-2">+</span>
+                Is there an on-premises version of Trello?</a
+              >
+            </li>
+            <li
+              class="list-group-item fw-medium border-start-0 border-end-0 border-top-0 px-0 py-3 fs-5 font-family-display"
+            >
+              <a>
+                <span class="me-2">+</span>
+                Can I have Trello Standard or Premium just for my own
+                account?</a
+              >
+            </li>
+            <li
+              class="list-group-item fw-medium border-start-0 border-end-0 border-top-0 border-bottom-0 px-0 py-3 fs-5 font-family-display"
+            >
+              <a
+                class="text-dark text-decoration-none"
+                role="button"
+                data-bs-toggle="collapse"
+                href="#answer8"
+              >
+                <span class="me-2">+</span>
+                How secure is Trello?</a
+              >
+              <div class="collapse" id="answer8">
+                <p class="fw-normal ps-20px pt-3">
+                  Trello, Inc. (“we”, “us” or “our”) is SOC2 Type 2 certified—we
+                  receive and review our data hosting providers’ SOC1 and SOC2
+                  reports every 6 months under NDA. Trello is ISO/IEC 27001
+                  certified which validates our information security management
+                  system (ISMS) and the implementation of our security controls.
+                  More information is available on the Atlassian Trust
+                  Management System. Trello is PCI-DSS certified. Learn more
+                  about Trello’s security protocols
+                  <a href="#">here</a>.
+                </p>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <section class="bg-linear-blue-white mb-4rem">
+        <div class="container row mx-auto">
+          <div class="py-3 col-12 col-lg-4">
+            <img
+              class="w-271px mx-auto d-block"
+              src="assets/images/TREL-210_Trello_Access_Spot_Illo.svg"
+              alt="Trello Access Spot Illo"
+            />
+          </div>
+          <div class="py-3 col-12 col-lg-8">
+            <h3 class="font-family-display fs-4">
+              Best-in-class security and centralized administration with
+              Atlassian Access
+            </h3>
+            <ul class="fs-5">
+              <li>SAML single sign-on</li>
+              <li>Enforced 2FA</li>
+            </ul>
+            <p class="fs-5">
+              Atlassian Access is a separate subscription that your company can
+              enable across all your Atlassian products and starts at
+              $4/month/user. Trello is an Atlassian product.
+            </p>
+            <a
+              href="#"
+              class="btn btn-outline-primary btn-outline-primary--blue btn--custom"
+              >Learn more</a
+            >
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="bg-dark text-dark">
+      <div class="container">
+        <div class="px-3 row px-lg-0 py-lg-3">
+          <div
+            class="d-flex justify-content-between justify-content-lg-start gap-3 pt-4 flex-lg-column col-12 col-lg-2"
+          >
+            <img
+              class="img--max-w-125px"
+              src="assets/images/trello-logo.svg"
+              alt="Trello logo"
+            />
+            <a href="#" class="text-decoration-none text-light">Log in</a>
+          </div>
+          <ul
+            class="mb-0 p-0 pt-3 list-unstyled d-lg-flex pt-lg-0 col-12 col-lg-10 footer-links"
+          >
+            <li class="col-lg-3">
+              <a
+                href="#"
+                class="p-lg-3 h-100 text-decoration-none text-light py-3 d-block border-lg-0 border-0 border-top border-1 border-gray-1 bg-footer-link"
+              >
+                <span class="mb-96px d-block">About Trello</span>
+                <small class="w-60 w-lg-100 fs-12px ln-1 d-block"
+                  >What’s behind the boards.</small
+                >
+              </a>
+            </li>
+            <li class="col-lg-3">
+              <a
+                href="#"
+                class="p-lg-3 h-100 text-decoration-none text-light py-3 d-block border-lg-0 border-0 border-top border-1 border-gray-1 bg-footer-link"
+              >
+                <span class="mb-96px d-block">Apps</span>
+                <small class="w-60 w-lg-100 fs-12px ln-1 d-block"
+                  >Download the Trello App for your Desktop or Mobile
+                  devices.</small
+                >
+              </a>
+            </li>
+            <li class="col-lg-3">
+              <a
+                href="#"
+                class="p-lg-3 h-100 text-decoration-none text-light py-3 d-block border-lg-0 border-0 border-top border-1 border-gray-1 bg-footer-link"
+              >
+                <span class="mb-96px d-block">Contact us</span>
+                <small class="w-60 w-lg-100 fs-12px ln-1 d-block"
+                  >Need anything? Get in touch and we can help.</small
+                >
+              </a>
+            </li>
+            <li class="col-lg-3">
+              <a
+                href="#"
+                class="p-lg-3 h-100 text-decoration-none text-light py-3 d-block border-lg-0 border-0 border-top border-1 border-gray-1 bg-footer-link"
+              >
+                <span class="mb-96px d-block">Jobs</span>
+                <small class="w-60 w-lg-100 fs-12px ln-1 d-block"
+                  >Learn about open roles on the Trello team.</small
+                >
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div
+          class="px-3 row px-lg-0 align-items-center border-0 border-top-1 border-lg-gray-1"
+        >
+          <div class="col-12 col-lg-2">
+            <form class="mb-3 mb-lg-0 language-form py-lg-3">
+              <select
+                name="language"
+                class="language-form__select"
+                aria-label="Language"
+              >
+                <option>English</option>
+                <option>Vietnamese</option>
+              </select>
+            </form>
+          </div>
+          <div class="pb-3 col-12 col-lg-7 pb-lg-0">
+            <ul class="p-0 mb-0 list-unstyled d-lg-flex mx-lg-4">
+              <li class="fs-5 me-lg-4 fs-lg-12px">
+                <a class="text-decoration-none text-light fs-12px" href="#"
+                  >Privacy Policy</a
+                >
+              </li>
+              <li class="fs-5 me-lg-4 fs-lg-12px">
+                <a class="text-decoration-none text-light fs-12px" href="#"
+                  >Notice at Collection</a
+                >
+              </li>
+              <li class="fs-5 me-lg-4 fs-lg-12px">
+                <a class="text-decoration-none text-light fs-12px" href="#"
+                  >Terms</a
+                >
+              </li>
+              <li class="fs-5 me-lg-4 fs-lg-12px">
+                <span class="text-light fs-12px"
+                  >Copyright © 2023 Atlassian</span
+                >
+              </li>
+            </ul>
+          </div>
+          <div class="py-3 col-lg-3 py-lg-0">
+            <ul
+              class="p-0 d-flex flex-wrap mt-3rem pb-5 gap-2rem list-unstyled mt-lg-0 gap-lg-0 justify-content-between py-lg-0 mb-lg-0"
+            >
+              <li class="">
+                <a
+                  href="#"
+                  class="text-light d-flex justify-content-between align-items-center rounded-circle border border-solid border-2 border-light w-24px h-24px"
+                >
+                  <svg
+                    class="h-60 w-60 trasition-ease m-auto"
+                    fill="currentColor"
+                    height="16"
+                    viewBox="0 0 16 16"
+                    width="16"
+                  >
+                    <path
+                      d="m7.9365485 4.00948853c2.1378796 0 3.8773322 1.74591892 3.8773322 3.89174604 0 2.14582713-1.7394526 3.89174603-3.8773322 3.89174603-2.13787961 0-3.87703593-1.7459189-3.87703593-3.89174603 0-2.14582712 1.73915632-3.89174604 3.87703593-3.89174604zm0 1.39893537c-1.36946341 0-2.48357803 1.11825631-2.48357803 2.49281067 0 1.37455435 1.11411462 2.49281063 2.48357803 2.49281063 1.36975965 0 2.483578-1.11825628 2.483578-2.49281063 0-1.37455436-1.11381835-2.49281067-2.483578-2.49281067zm4.1036506-2.58676679c.5095127 0 .9227511.41477468.9227511.92618144 0 .5117041-.4132384.92647878-.9227511.92647878-.5098089 0-.9230474-.41477468-.9230474-.92647878 0-.51140676.4132385-.92618144.9230474-.92618144zm-7.31121058-1.33500953c-1.79099628 0-3.24784704 1.46226656-3.24784704 3.25992082v6.3093323c0 1.7976543 1.45685076 3.2599209 3.24784704 3.2599209h6.28566818c1.7909963 0 3.2481433-1.4622666 3.2481433-3.2599209v-6.3093323c0-1.79765426-1.457147-3.25992082-3.2481433-3.25992082zm6.28566818 14.31582152h-6.28566818c-2.60740146 0-4.72898852-2.1291766-4.72898852-4.7465684v-6.3093323c0-2.61739173 2.12158706-4.7465684 4.72898852-4.7465684h6.28566818c2.6076977 0 4.7292848 2.12917667 4.7292848 4.7465684v6.3093323c0 2.6173918-2.1215871 4.7465684-4.7292848 4.7465684z"
+                    ></path>
+                  </svg>
+                </a>
+              </li>
+              <li class="">
+                <a
+                  href="#"
+                  class="text-light d-flex justify-content-between align-items-center rounded-circle border border-solid border-2 border-light w-24px h-24px"
+                >
+                  <svg
+                    class="h-60 w-60 trasition-ease m-auto"
+                    fill="currentColor"
+                    height="16"
+                    viewBox="0 0 8 16"
+                    width="8"
+                  >
+                    <path
+                      d="m1.61157724 7.96343677v7.63998533c0 .1097869.08892957.199047.19830983.199047h2.82684468c.10938027 0 .19799997-.0892601.19799997-.199047v-7.76438973h2.04940817c.10287322 0 .1887042-.07930781.19738025-.18225245l.1970704-2.33942478c.00991549-.1160071-.08118309-.21584163-.19738026-.21584163h-2.24647856v-1.65986573c0-.38876376.31419714-.70412892.70183089-.70412892h1.57935189c.10969013 0 .19830983-.08926016.19830983-.19904704v-2.33942478c0-.11009789-.0886197-.19904704-.19830983-.19904704h-2.66850667c-1.56602795 0-2.83583059 1.27421209-2.83583059 2.8460617v2.25545181h-1.41326741c-.10938026 0-.19830983.08926015-.19830983.19904704v2.33942477c0 .10978689.08892957.19904705.19830983.19904705h1.41326741z"
+                    ></path>
+                  </svg>
+                </a>
+              </li>
+              <li class="">
+                <a
+                  href="#"
+                  class="text-light d-flex justify-content-between align-items-center rounded-circle border border-solid border-2 border-light w-24px h-24px"
+                >
+                  <svg
+                    class="h-60 w-60 trasition-ease m-auto"
+                    fill="currentColor"
+                    height="16"
+                    viewBox="0 0 16 16"
+                    width="16"
+                  >
+                    <g>
+                      <path
+                        d="m3.36409209 14.2159091h-3.17642414v-9.59186348h3.17642414z"
+                      ></path>
+                      <path
+                        d="m1.77597952 3.31427557h-.0206972c-1.06590614 0-1.75528232-.7364835-1.75528232-1.65693805 0-.94122869.71047144-1.65733752 1.79707473-1.65733752 1.08660338 0 1.75528236.71610883 1.77597957 1.65733752 0 .92045455-.68937619 1.65693805-1.79707478 1.65693805z"
+                      ></path>
+                      <path
+                        d="m14.8176077 14.2159091h-3.1760261v-5.13141424c0-1.28959517-.4599158-2.16910068-1.6092078-2.16910068-.87744213 0-1.40004662.59326174-1.62970603 1.16594902-.08398287.20494499-.10448108.4913885-.10448108.7780318v5.3565341h-3.17622514s.04159346-8.69198329 0-9.59186348h3.17622514v1.35810992c.42210364-.65358665 1.17735263-1.58322973 2.86258281-1.58322973 2.0898209 0 3.6568382 1.37089396 3.6568382 4.31702764z"
+                      ></path>
+                    </g>
+                  </svg>
+                </a>
+              </li>
+              <li class="">
+                <a
+                  href="#"
+                  class="text-light d-flex justify-content-between align-items-center rounded-circle border border-solid border-2 border-light w-24px h-24px"
+                >
+                  <svg
+                    class="h-60 w-60 trasition-ease m-auto"
+                    fill="currentColor"
+                    height="16"
+                    viewBox="0 0 20 16"
+                    width="20"
+                  >
+                    <path
+                      d="m19.0426025 1.89416831c-.6070809.27573601-1.2752956.44311943-1.9307418.55341384.3110854-.05242868.7695883-.61749334.9529894-.84623773.2797448-.34874781.512285-.74604069.6430647-1.17517915.0166377-.03339901.0294061-.07573031-.0042561-.10097375-.0417876-.0166995-.0688722-.00815557-.1021475.00854393-.7316699.39340928-1.4881028.67885432-2.293288.88080182-.0669375.01669951-.1164636 0-.1582512-.04194294-.0669375-.07573032-.1296189-.1468003-.2004257-.20583111-.3385569-.28894028-.7018769-.51574287-1.1112406-.68312628-.5374349-.22020046-1.1247829-.313407-1.7040054-.27534766-.5633588.03650589-1.1166575.1961221-1.616561.4582655-.5010643.26253176-.9479595.62797907-1.3039279 1.0691567-.36834997.45593533-.63996937.99459147-.77887445 1.56548154-.13426201.55108368-.12342819 1.09634195-.04140068 1.65325103.01238152.09242982.00425615.10485736-.07893213.09242982-3.15032069-.47069303-5.76165874-1.60198743-7.88121865-4.0265226-.09208749-.10524572-.14200046-.10524572-.21745029.00815558-.92745255 1.3953796-.47746201 3.63777365.68137003 4.73955264.15438196.1468003.31302007.29360061.48442661.42758501-.0626814.0128159-.83381738-.07106999-1.52099123-.42758501-.09170057-.05864245-.13813124-.02485508-.1462566.07961392-.00851229.15107227.00425614.289717.02476302.45321681.17798422 1.41479763 1.15418898 2.72318446 2.49100524 3.23349028.15863811.06718638.33391387.12582883.50532041.15534423-.3048947.06679802-.6183017.11495474-1.49158515.04621491-.10872514-.02097147-.15051274.03339901-.10872514.13825637.65622008 1.79539099 2.07274232 2.32977519 3.13368304 2.63424989.14200046.0248551.28438783.0248551.42677521.0582541-.00851229.0128159-.01702458.0128159-.02514994.0252434-.35209922.5386562-1.57206498.9394443-2.14045371 1.1386733-1.03308233.3623404-2.15825213.5254519-3.25053355.4174876-.17450193-.0256318-.21125954-.02369-.25885097 0-.04759143.0295154-.00580383.0714584.05029989.1172849.22170643.1468003.44689516.2769011.67672696.4027299.69375153.3689426 1.41690916.6629316 2.17295517.8722579 3.90481903 1.082361 8.30335081.2869985 11.23506041-2.63658 2.3025741-2.2963762 3.109307-5.46268009 3.109307-8.63286759 0-.12427538.1462566-.19301521.2329271-.25825979.5989556-.45166336 1.0752569-.99226131 1.5221521-1.59616202.1002128-.13553785.0941388-.25631799.0941388-.30563979 0-.00854393 0-.0166995 0-.0166995 0-.05087524.006074-.03534082-.0716974 0"
+                    ></path>
+                  </svg>
+                </a>
+              </li>
+              <li class="">
+                <a
+                  href="#"
+                  class="text-light d-flex justify-content-between align-items-center rounded-circle border border-solid border-2 border-light w-24px h-24px"
+                >
+                  <svg
+                    class="h-60 w-60 trasition-ease m-auto"
+                    fill="currentColor"
+                    height="14"
+                    viewBox="0 0 20 14"
+                    width="20"
+                  >
+                    <path
+                      d="m12.6695433 7.17708642-4.43152592 2.43950617c-.19286329.10469136-.36604664-.03555555-.36604664-.25520987v-5.00740741c0-.22281482.17869373-.36266667.37155701-.25244445l4.46183305 2.56790124c.1971928.11259259.163737.39901234-.0358175.50765432zm7.0103835-2.87683951c0-2.37511111-1.9180056-4.30024691-4.2839264-4.30024691h-11.11168033c-2.3659208 0-4.28432007 1.9251358-4.28432007 4.30024691v5.22666667c0 2.37511112 1.91839927 4.30024692 4.28432007 4.30024692h11.11168033c2.3659208 0 4.2839264-1.9251358 4.2839264-4.30024692z"
+                    ></path>
+                  </svg>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script type="text/javascript" src="assets/js/index.js"></script>
+  </body>
+</html>

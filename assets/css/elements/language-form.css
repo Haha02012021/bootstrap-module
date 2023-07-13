@@ -1,0 +1,46 @@
+.language-form {
+  display: inline-block;
+  max-width: 100%;
+  min-height: 20px;
+  padding-left: 2rem;
+  position: relative;
+}
+
+.language-form::before {
+  background-image: url(../../images/earth.svg);
+  background-position: left center;
+  background-repeat: no-repeat;
+  background-size: 20px;
+  bottom: 0px;
+  content: "";
+  left: 0px;
+  min-height: 20px;
+  min-width: 20px;
+  position: absolute;
+  top: 0px;
+}
+
+.language-form__select {
+  appearance: none;
+  background-color: transparent;
+  background-image: url(../../images/chevron-down.svg);
+  background-position: right center;
+  background-repeat: no-repeat;
+  border: 0px;
+  color: inherit;
+  cursor: pointer;
+  display: block;
+  font-family: inherit;
+  font-size: 1rem;
+  padding-right: 1rem;
+  position: relative;
+  max-width: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  color: var(--text-light-color);
+}
+
+.language-form__select:focus {
+  outline: var(--text-light-color) solid 2px;
+}

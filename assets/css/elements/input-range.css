@@ -1,0 +1,17 @@
+.input-range {
+  appearance: none;
+  margin: 1.75rem 0px 0.75rem;
+  width: 100%;
+  background-color: var(--bg-gray-color);
+  border-radius: 0.5rem;
+  height: 8px;
+}
+
+.input-range::-webkit-slider-thumb {
+  appearance: none;
+  width: 1.5rem;
+  height: 1.5rem;
+  background-color: var(--bg-light-color);
+  box-shadow: var(--box-shadow-small);
+  border-radius: 50%;
+}

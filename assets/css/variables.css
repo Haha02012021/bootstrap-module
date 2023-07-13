@@ -1,0 +1,77 @@
+@font-face {
+  font-family: "Charlie Text";
+  src: url(../fonts/CharlieText-Light.otf);
+  font-weight: 300;
+}
+
+@font-face {
+  font-family: "Charlie Text";
+  src: url(../fonts/Charlie_Text-Regular.woff);
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "Charlie Text";
+  src: url(../fonts/CharlieText-Semibold.otf);
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: "Charlie Display";
+  src: url(../fonts/CharlieDisplay-Light.otf);
+  font-weight: 300;
+}
+
+@font-face {
+  font-family: "Charlie Display";
+  src: url(../fonts/CharlieDisplay-Regular.otf);
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "Charlie Display";
+  src: url(../fonts/CharlieDisplay-Semibold.otf);
+  font-weight: 500;
+}
+
+:root {
+  /* Text color */
+  --text-dark-color: rgb(23, 43, 77);
+  --text-gray-color: rgb(80, 95, 121);
+  --text-blue-color: rgb(0, 101, 255);
+  --text-light-color: rgb(255, 255, 255);
+
+  /* Border color */
+  --border-blue-color: rgb(0, 184, 217);
+  --border-gray-color: rgb(223, 225, 230);
+  --border-gray-1-color: rgb(80, 95, 121);
+
+  /* Background color */
+  --bg-light-color: rgb(255, 255, 255);
+  --bg-gray-color: rgb(151, 160, 175);
+  --bg-blue-color: rgb(230, 252, 255);
+  --bg-blue-1-color: rgb(222, 235, 255);
+  --bg-blue-2-color: rgb(52, 69, 99);
+  --bg-dark-color: rgb(23, 43, 77);
+
+  /* Font family */
+  --font-family-text: "Charlie Text", sans-serif;
+  --font-family-display: "Charlie Display", sans-serif;
+
+  /* Box shadow */
+  --box-shadow: rgba(9, 30, 66, 0.15) 0px 0.5rem 1rem 0px;
+  --box-shadow-small: rgba(9, 30, 66, 0.2) 0px 3px 5px,
+    rgba(9, 30, 66, 0.31) 0px 0px 1px;
+
+  /* Linear gradient */
+  --linear-gradient-blue-white: linear-gradient(
+      rgb(230, 252, 255),
+      rgb(255, 255, 255)
+    )
+    0% 0% / auto no-repeat scroll padding-box border-box transparent;
+  --linear-gradient-purple-white: linear-gradient(
+      rgb(234, 230, 255),
+      rgb(255, 255, 255)
+    )
+    no-repeat;
+}
